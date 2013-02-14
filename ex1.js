@@ -35,12 +35,4 @@ if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
   }
 }
 
-function validateZip()
-{
-if (isNaN(inputform.state.value))
-	{
-	alert ("Please enter numbers into zipcode box")
-	return false;
-	}
-}
 //w3schools was used for help with the code!
